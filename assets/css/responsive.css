@@ -1,0 +1,426 @@
+
+@media(max-width: 1400px){
+
+}
+
+@media(max-width: 1200px){
+   
+    .nav-menu{
+        gap: 40px;
+    }
+
+    .main-next{
+        right: 90px;
+    }
+    
+    .main-prev{
+        left: 90px;
+    }
+    .price-text{
+        font-size: 18px;
+        
+    }
+    .banner-title{
+        font-size: 73px;
+        white-space:nowrap;
+        
+    }
+    .banner-text{
+        font-size: 15px;
+        
+    }
+
+
+
+    .achievements{
+        max-width: 1000px;
+    }
+    .number{
+        font-size: 28px;
+    }
+    .ach-text{
+        font-size: 14px;
+    }
+    
+    .pop-tur-countries{ 
+        margin: 0   auto;
+        max-width: 1000px;
+        width: 100%;
+    }
+    .pop-tourism{
+      
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 34px;
+    }
+    .footer-main{
+        max-width: 1000px;
+        padding-left: 20px;
+    }
+    .footer-link{
+        line-height: 35px; 
+    } 
+    .footer-mail{
+        padding-right: 20px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .header-container{
+        padding: 0 60px;
+    }
+    .nav-menu{
+        gap: 30px;
+    }
+    .header-options{
+        font-size: 15px;
+    }
+    .main-next{
+        right: 50px;
+    }
+    
+    .main-prev{
+        left: 50px;
+    }
+    .price-text{
+        font-size: 16px;
+        
+    }
+    .banner-title{
+        font-size: 70px;
+    }
+    .achievements{
+        max-width: 840px;
+    }
+    .services{ 
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+    .service-title{
+        max-width: 550px;
+        align-items: center;
+    }
+    .title-text{
+        text-align: center;
+    }
+    .packages{
+        max-width: 700px;
+    }
+    .package-info{
+        max-width: 225px;
+    }
+    .footer-main{
+        flex-direction:  column-reverse;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px){
+    .header-container{
+    padding: 0 50px;    
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left:  100%;
+        top:81px;
+        gap:0;
+        flex-direction: column;
+        background-color: #Ffffff;
+        text-align: center;
+        transition: 0.3s;
+        width: 100%;
+        text-align: center;
+
+    }
+    .nav-item{
+        margin: 16px 0;
+
+    }
+    .nav-menu.active{
+        left:0;
+    }
+
+    .main-btn{
+        display: none;
+    }
+
+    .packages{
+        justify-content: center;
+        max-width: 700px;
+        gap: 15px;
+        display: grid;
+    }
+    .package-info{
+        max-width: 225px;
+    }
+
+    .get-off-title{
+        font-size: 30px;
+    }
+    .get-off-text{
+        font-size: 14px;
+        margin: 14px auto 40px;
+    }
+    .form-input{
+        max-width: 385px;
+        width: 100%;
+        height: 45px;
+        background-color: transparent;
+        font-size: 13px;
+        line-height: 33px;
+        padding-left: 10px;
+    }
+    
+    .subscribe{
+        max-width: 150px;
+        height: 45px;
+    }
+    .form{
+        flex-wrap: wrap;
+    }
+    .form-input,
+    .subscribe{
+        margin: 0 auto;
+    }
+    .travellers{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 110px;
+    }    
+    .booking-quest{
+        font-size: 32px;
+        
+    }
+    .book-now{
+       
+        max-width: 170px;
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        
+    }
+    .pop-tourism{
+        grid-template-columns: repeat(1, 1fr);
+        gap:34;
+    }
+    .pop-country{
+        max-width: 250px;
+    }
+ 
+    .footer-info,
+    .footer-mail{
+        align-items: center;
+    }
+    .footer-link{
+        text-align:center;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap:22px;
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 576px){
+    .header-container{
+        padding: 0 20px;
+    }
+
+    .price-text{
+        font-size: 16px;
+        
+    }
+    .banner-title{
+        font-size: 70px;
+        white-space:normal;
+        
+    }
+    
+    .price-text{
+        font-size: 18px;
+        
+    }
+    .banner-text{
+        font-size: 15px;
+    }
+    .achievements{
+         display: grid;
+         grid-template-columns: 142px 142px;
+         justify-content: center;
+         gap: 50px 30px;
+        
+    }
+}
+
+@media(max-width: 480px){
+
+    .logo{
+        width: 110px;
+        height: 27px;
+    }
+    .main{
+        height: 550px;
+    }
+    .main-info{
+        top: 45%;
+    }
+    .price-tag{
+        max-width: 180px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .price-text{
+        font-size: 11px;
+        
+    }
+    .banner-title{
+        margin: 20px 0 25px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .banner-text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .title-header{
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    .discover{
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .title-text{
+        font-size: 14px;
+    }
+    .tour-title{
+        text-align: center;
+        font-size: 14px;
+    }
+    .tour-text{
+        text-align: center;
+        font-size: 14px;
+    }
+    .achievements{
+        display: grid;
+        grid-template-columns: 142px 142px;
+        justify-content: center;
+        gap: 30px 10px;
+       
+   }
+    .mini-img{
+        max-width: 60px;
+        max-height: 50px;
+    }
+    .number{
+        font-size: 25px;
+        
+    }
+    .ach-text{
+        font-size: 13px;
+    }
+        
+    .get-off-title{
+        font-size: 24px;
+    }
+    .get-off-text{
+        font-size: 12px;
+        margin: 10px auto 30px;
+    }
+    .form-input{
+        max-width: 385px;
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .subscribe{
+        max-width: 90px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+    }
+    .travellers{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 45px;    
+    }
+    .traveler-name{
+    margin: 15.5px auto 30.5px;
+    }
+    .traveler-text{
+        font-size: 14px;
+    }
+   
+
+}
+@media(max-width: 320px){
+    .achievements{
+        grid-template-columns: 142px;
+        gap: 50px;
+
+    }
+    .get-off-title{
+        font-size: 16px;
+    }
+    .form-input{
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .subscribe{
+        max-width: 80px;
+        font-size: 10px;
+        height: 35px;
+    }
+    .travellers{
+        margin: 0 20px;    
+    }    
+    .traveler-img img{
+        width: 73px;
+        height: 73px;
+    }
+    .booking-text{
+        justify-content:flex-start;
+        gap: 25px;
+    }
+    .booking-quest{
+        font-size: 28px;
+        
+    }
+    .book-now{
+       
+        max-width: 160px;
+        height: 45px;
+        font-size: 12px;
+        
+    }
+   
+     .country-name{
+        font-size: 24px;
+    }
+    .county-price{
+        font-size: 12px;
+    }
+    .footer-rights-p{
+        font-size: 14px;
+    }
+    
+}
