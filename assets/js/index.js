@@ -20,7 +20,7 @@ function renderServices(){
         {
             title: 'flight booking',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: './assets/images/service-img/Clip.png'
+            img: 'assets/images/service-img/Clip.png'
         },
         {
             title: 'HOTEL & RESORT BOOKING',
