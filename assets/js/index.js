@@ -20,32 +20,32 @@ function renderServices(){
         {
             title: 'flight booking',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: '/assets/images/service-img/Clip.png'
+            img: './assets/images/service-img/Clip.png'
         },
         {
             title: 'HOTEL & RESORT BOOKING',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: '/assets/images/service-img/pool.jpeg'
+            img: './assets/images/service-img/pool.jpeg'
         },
         {
             title: 'family trip planner',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: '/assets/images/service-img/beach.jpeg'
+            img: './assets/images/service-img/beach.jpeg'
         },
         {
             title: 'cruise tour',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem. ',
-            img: '/assets/images/service-img/boat.jpeg'
+            img: './assets/images/service-img/boat.jpeg'
         },
         {
             title: 'fire camp',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: '/assets/images/service-img/fire.jpeg'
+            img: './assets/images/service-img/fire.jpeg'
         },
         {
             title: 'corporate holidays',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
-            img: '/assets/images/service-img/friends.jpeg'
+            img: './assets/images/service-img/friends.jpeg'
         },
     ]
 
